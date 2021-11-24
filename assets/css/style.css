@@ -3,14 +3,14 @@
 
 
 body {
-    font-size: 62.5%; 
+  font-size: 62.5%;
 }
 
 h1,
 h2,
 h3,
 h4,
-.nav-item  {
+.nav-item {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
@@ -46,7 +46,7 @@ p {
 /*         Navbar           */
 
 .logo {
-    height: 100px;
+  height: 100px;
 }
 
 
@@ -67,12 +67,76 @@ p {
 .callout-container {
   max-width: 600px;
   color: #fafafa;
-  margin: 90x 0px;
+  margin: 50x 0px;
+}
+
+/*         About           */
+
+.about {
+  text-align: center;
+  width: 95%;
+  margin: 10px auto;
+
+
+}
+
+#about-paragraph {
+  margin-top: 50px;
+}
+
+
+.display-none {
+  display: none;
+}
+
+.grid-col-one h1,
+.grid-col-one p {
+  text-align: center;
+}
+
+@media screen and (min-width: 1225px) {
+  .about-grid-container {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 50% 50%;
+    margin: auto 20px;
+    max-width: 1800px;
+  }
+
+  #about-title-row {
+    grid-column: 1 / 3;
+  }
+
+
+  .display-none {
+    display: block;
+  }
+
+  .grid-col-one {
+    width: 90%;
+    height: 90%;
+    margin: 20px 30px;
+  }
+
+  #about-paragraph,
+  .about-img {
+    width: 80%;
+    height: 80%;
+    margin: 50px auto;
+  }
+
+  .grid-col-one {
+    height: 100%;
+  }
+
+  .grid-col-one h1 {
+    margin: 40px auto 0;
+  }
 }
 
 /*       Buttons          */
 
-.btn-main{
+.btn-main {
   background-color: #212529;
   border: #212529;
 }
@@ -84,7 +148,7 @@ p {
 /*        Footer         */
 
 footer {
-  background-color: #212529; 
+  background-color: #212529;
   color: #fafafa;
 }
 
@@ -103,7 +167,7 @@ footer {
 
 .align-contacts {
   margin-left: 10px;
-  
+
 }
 
 .social-links {
@@ -133,17 +197,17 @@ footer {
 }
 
 .contact-icons:hover,
-.social-links i:hover{
+.social-links i:hover {
   color: #96999a;
 }
 
-.contact-detail{
+.contact-detail {
   font-size: 1.2rem;
 }
 
 .copywrite {
-    display: none;
-  }
+  display: none;
+}
 
 .contact-divide-grid {
   width: 80%;
@@ -154,7 +218,7 @@ footer {
 
 .contact-divide-grid-right {
   text-align: left;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 .contact-divide-grid-left {
@@ -163,13 +227,13 @@ footer {
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .footer-grid-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
   }
 
-  .copywrite-for-small-screen{
+  .copywrite-for-small-screen {
     display: none;
   }
 
