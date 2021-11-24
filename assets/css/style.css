@@ -1,8 +1,10 @@
 /*        General Typography        */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-body{
-    font-size: 62.5%; /* 1 rem = 10px */
+
+body {
+    font-size: 62.5%; 
+  
 }
 
 h1,
@@ -19,14 +21,16 @@ h1 {
   font-weight: 700;
 }
 
-h2,{
+h2 {
   font-size: 2.4rem;
   font-weight: 500;
 }
 
-h3 {
-  font-size: 1.8rem;
-  font-weight: 500;
+h3,
+.nav-item {
+  font-size: 1.29rem;
+  font-weight: 400;
+  margin-bottom: 12px;
 }
 
 h4 {
@@ -39,14 +43,107 @@ p {
   font-size: 1.6rem;
   font-weight: 400;
 }
+
 /*         navbar           */
 
 .logo {
     height: 100px;
 }
 
-.nav-item {
-  font-size: 1.6rem;
+/*        Footer         */
+
+footer {
+  background-color: #212529; 
+  color: #fafafa;
+}
+
+#footer-logo {
+  margin-bottom: 50px;
+}
+
+.footer-grid-container {
+  display: -ms-inline-grid;
+  padding-top: 20px;
+}
+
+.align-contacts {
+  margin-left: 10px;
+  
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.contact-icons,
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #96999a;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-icons:hover,
+.social-links li a i:hover {
+  background-color: #fafafa;
+}
+
+.contact-icons:hover,
+.social-links i:hover{
+  color: #96999a;
+}
+
+.copywrite {
+    display: none;
+  }
+
+.contact-divide-grid {
+  width: 80%;
+  display: grid;
+  grid-template-rows: 75% 15%;
+  grid-template-columns: 50% 50%;
+}
+
+.contact-divide-grid-right {
+  text-align: left;
+  margin-left: 10px; 
+}
+
+.contact-divide-grid-left {
+  text-align: right;
+  margin-right: 10px;
 }
 
 
+@media screen and (min-width: 768px){
+  .footer-grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .copywrite-for-small-screen{
+    display: none;
+  }
+
+  .footer-setion-one {
+    position: relative;
+  }
+
+  .copywrite {
+    display: block;
+    /* code from https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
