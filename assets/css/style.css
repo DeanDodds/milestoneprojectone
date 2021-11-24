@@ -28,8 +28,7 @@ h2 {
 h3,
 .nav-item {
   font-size: 1.29rem;
-  font-weight: 400;
-  margin-bottom: 12px;
+  font-weight: 500;
 }
 
 h4 {
@@ -40,13 +39,46 @@ h4 {
 p {
   font-family: 'Lora', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-/*         navbar           */
+/*         Navbar           */
 
 .logo {
     height: 100px;
+}
+
+
+.callout {
+  height: 70vh;
+  /* https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels */
+  /* Photo by Suvan Chowdhury from Pexels */
+  background: url(../images/heroimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.callout-container {
+  max-width: 600px;
+  color: #fafafa;
+  margin: 90x 0px;
+}
+
+/*       Buttons          */
+
+.btn-main{
+  background-color: #212529;
+  border: #212529;
+}
+
+.btn-main:hover {
+  background-color: #303d50;
 }
 
 /*        Footer         */
@@ -55,6 +87,10 @@ footer {
   background-color: #212529; 
   color: #fafafa;
 }
+
+/* footer h3{
+  margin: 15px;
+} */
 
 #footer-logo {
   margin-bottom: 50px;
@@ -99,6 +135,10 @@ footer {
 .contact-icons:hover,
 .social-links i:hover{
   color: #96999a;
+}
+
+.contact-detail{
+  font-size: 1.2rem;
 }
 
 .copywrite {
