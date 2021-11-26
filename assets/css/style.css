@@ -44,6 +44,9 @@ p {
   line-height: 1.2;
 }
 
+strong {
+  font-weight: 900;
+}
 
 /*                                   Navbar           */
 
@@ -618,6 +621,100 @@ input::placeholder {
     position: absolute;
     left: 10%;
     padding: 30px;
+  }
+
+}
+
+/* Evemts page */
+
+.event {
+  background-color: #96999a;
+  width: 100%;
+  color: black;
+
+}
+
+.event-header {
+  padding: 100px 0;
+}
+
+.disabled {
+  pointer-events: none;
+  width: 100px;
+}
+
+
+.event-grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10;
+  width: 95%;
+}
+
+.event-links,
+.event-details {
+  text-align: center;
+  padding: 0px 20px 50px;
+}
+
+.event-details {
+  padding-top: 10px;
+}
+
+.event-links button {
+  height: 60px;
+  width: 150px;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  font-family: 'Lora', sans-serif;
+}
+
+.event-year {
+  text-align: center;
+  padding: 20px;
+}
+
+
+#events-year-2022,
+#events-year-2021 {
+  grid-column: 1/3;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+  .event-grid-container {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 7;
+    width: 90%
+  }
+
+  #events-year-2022 {
+    grid-column: 1;
+    grid-row: 3/8;
+  }
+
+  #events-year-2021 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  .event-links,
+  .event-details {
+    text-align: left;
+  }
+
+  .event-details {
+    padding-top: 0px;
+  }
+
+  .event-year {
+    text-align: right;
+    padding: 0 10px;
   }
 
 }
