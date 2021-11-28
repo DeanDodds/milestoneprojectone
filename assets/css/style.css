@@ -424,6 +424,7 @@ showcase-card-main #tracks iframe {
 /*        Footer         */
 
 footer {
+  clear: both;
   background-color: #212529;
   color: #fafafa;
   padding: 20px 0 50px 0;
@@ -717,4 +718,76 @@ input::placeholder {
     padding: 0 10px;
   }
 
+}
+
+/*                media page */
+
+.slide-container {
+  height: 200px;
+  width: 400px;
+  margin: 10px 100px;
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide {
+  margin: 20px 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+
+}
+
+.slick-prev,
+.slick-next {
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 2;
+}
+
+.slick-prev {
+  margin-left: 25px;
+}
+
+.slick-next {
+  margin-right: 25px;
+}
+
+.main-video-container {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.play-btn {
+  padding-left: 20px;
+  color: white;
+  font-size: 200px;
+}
+
+.music-player {
+  width: 100%;
+}
+
+#showreel,
+#showreel-audio {
+  width: 70%;
+  height: 100%;
+}
+
+.video-section {
+  background: lightgray;
+  padding-bottom: 25px;
+}
+
+#slick {
+  background-color: lightgrey;
 }
