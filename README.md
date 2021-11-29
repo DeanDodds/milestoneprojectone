@@ -5,12 +5,27 @@
 
 This project a front end marketing website for North East function band Union Sqaure Sessions. The purpose of the website is to promote the band to any potenial costumers and encourage users to make inquirys and bookings.
 
-## User Experience
+# Table of Contents
+
+1. [User Experience (UX)](#user-experience)
+   * [User Stories](#user-stories)
+   * [Design](#design)
+   * [Wireframes](#wireframes)
+3. [Features](#features)   
+    * [Future Features](#future-features)  
+4. [Technologies Used](#technologies-used)
+    * [Langagues Used](#langagues)
+    * [Frameworks, Libraries and Programs used](#frameworks)
+5. [Testing](#testing)
+
+
+
+
+
+## User Experience (UX) <a id="user-experience"></a>
 ------
 
-
-
-1. ## User Stories
+1. ## User Stories <a id="user-stories"></a>
 
    * ### First Time Visitor Goals
       * As a first time visitor, I want to be able to understand the main purpose of the website.
@@ -31,14 +46,14 @@ This project a front end marketing website for North East function band Union Sq
 
 
 
-2. ## Design
+2. ## Design <a id="design"></a>
    
    * ### Color Scheme
-    * 
+     * 
 
    * ### Typography
-    *  Montserrat is the main font used for all headers with a sans serif fallback.
-    *  Lora is the font used for the main text through out the website this also as a sans serif fallback. I used this to compliment the montserrat font.
+     *  Montserrat is the main font used for all headers with a sans serif fallback.
+     *  Lora is the font used for the main text through out the website this also as a sans serif fallback. I used this to compliment the montserrat font.
 
    * ### Imagery 
       * 
@@ -46,12 +61,67 @@ This project a front end marketing website for North East function band Union Sq
    * ### Videos
       * 
    
-   * ### Wireframes
-      * Home pages wireframes - [View](wireframes/indexwireframe.png)
-      * Video/Music wireframes - [View](wireframes/musicvideo.png)
-      * Setlist wireframes - [View](wireframes/songlist.png)
-      * Events wireframes - [View](wireframes/events.png)
-      * Contact us wireframes - [View](wireframes/contact.png)
+3. ## Wireframes <a id="wireframes"></a>
+    * Home pages wireframes - [View](wireframes/indexwireframe.png)
+    * Video/Music wireframes - [View](wireframes/musicvideo.png)
+    * Setlist wireframes - [View](wireframes/songlist.png)
+    * Events wireframes - [View](wireframes/events.png)
+    * Contact us wireframes - [View](wireframes/contact.png)
+
+## Features <a id="features"></a>
+-----
+
+* Responsive on all device sizes
+
+### Navigation Bar
+ * All pages have a colapable navigation bar this makes it fully responsive on all devices 
+
+### Footer 
+ * The footer contains links to social media and contact details for the band. 
+
+### Home Page
+
+
+### Video and Music
+
+### Setlist 
+
+### Events 
+
+### Contact us Page
+
+## Technologies Used <a id="technologies"></a>
+-----
+
+## Langagues Used <a id="langagues"></a>
+* HTML5
+* CSS
+* JavaScript
+
+## Frameworks, Libraries and Programs used <a id="frameworks"></a>
+1. Bootstrap 5:
+   * Used for responsiveness and styling of the website.
+2. Slick:
+   * Used to create responsive carosell elements on the home and video/music pages of the website.
+3. Font Awesome:
+   * Used to import icons used on every page of the website.
+4. Google Fonts: 
+   * Used to import Montserrat and Lora fonts.
+5. Photoshop: 
+   * Used to create logo and resize images. 
+6. JQuery:
+   * Used with both Boostrap 5 and Slick.
+8. Gitpod: 
+   * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+7. GitHub:
+   * Used to store the projects code once pushed from Gitpot.
+8. Balsamiq:
+   * Used to create all wireframes.
+9. Soundcloud:
+   * Used to enbed a music player with the bands tracks.
+
+## Testing <a id="testing"></a>
+-----
 
 
    
