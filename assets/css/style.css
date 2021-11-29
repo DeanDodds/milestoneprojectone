@@ -424,6 +424,7 @@ showcase-card-main #tracks iframe {
 /*        Footer         */
 
 footer {
+  clear: both;
   background-color: #212529;
   color: #fafafa;
   padding: 20px 0 50px 0;
@@ -717,4 +718,185 @@ input::placeholder {
     padding: 0 10px;
   }
 
+}
+
+/*                media page */
+
+.slide-container {
+  height: 200px;
+  width: 400px;
+  margin: 10px 100px;
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide {
+  margin: 20px 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+
+}
+
+.slick-prev,
+.slick-next {
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 2;
+}
+
+.slick-prev {
+  margin-left: 25px;
+}
+
+.slick-next {
+  margin-right: 25px;
+}
+
+.main-video-container {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.play-btn {
+  padding-left: 20px;
+  color: white;
+  font-size: 200px;
+}
+
+.music-player {
+  width: 100%;
+}
+
+#showreel,
+#showreel-audio {
+  width: 70%;
+  height: 100%;
+}
+
+.video-section {
+  background: lightgray;
+  padding-bottom: 25px;
+}
+
+#slick {
+  background-color: lightgrey;
+}
+
+/*               Setlist page */
+
+
+.setlist-container {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.song-list-table table {
+  margin: 20px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.song-list-table tr:nth-child(odd) {
+  background: grey;
+  color: white;
+}
+
+.song-list-table thead tr td {
+  font-weight: 700;
+  padding: 5px 0;
+  background: white;
+  color: black;
+}
+
+.song-list-table td {
+  border: 1px solid black;
+}
+
+.table-1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.table-2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* song request */
+
+request-container {
+  padding-bottom: 30px;
+}
+
+.display-none,
+.display-none-lg {
+  display: none;
+}
+
+#first-dance-request-form {
+  width: 40%;
+}
+
+@media screen and (min-width: 700px) {
+
+  .display-none {
+    display: block;
+  }
+
+}
+
+.setlist-title {
+  padding-top: 20px;
+}
+
+
+.setlist-title {
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1225px) {
+
+  .display-none-lg {
+    display: block;
+  }
+
+
+  .request-form-container {
+    display: flex;
+    margin: 10px auto;
+  }
+
+  .request-form-container p {
+    width: 50%;
+    padding: 10px 50px;
+  }
+
+  #first-dance-request-form {
+
+    width: 50%;
+    margin-right: 50px;
+  }
+
+  .display-none-sm {
+    display: none;
+  }
+
+  .song-list-table {
+    display: flex;
+  }
+
+  .song-list-table table {
+    width: 40%;
+
+  }
 }
