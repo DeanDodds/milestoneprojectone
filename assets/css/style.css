@@ -610,8 +610,7 @@ input::placeholder {
   .contact-form-title {
     position: absolute;
     left: 13%;
-    margin-top: 75px;
-    padding: 0;
+    padding-top: 80px;
   }
 
 
@@ -624,6 +623,12 @@ input::placeholder {
     padding: 30px;
   }
 
+}
+
+/* model contact forms */
+
+.modal-enquiry-form {
+  background-color: rgb(60, 60, 60);
 }
 
 /* Evemts page */
