@@ -7,6 +7,10 @@ body {
   font-size: 62.5%;
 }
 
+section {
+  padding: 30px 5px
+}
+
 h1,
 h2,
 h3,
@@ -51,7 +55,8 @@ strong {
 /*                                   Navbar           */
 
 .logo {
-  height: 100px;
+  width: 194px;
+  height: 150px;
 }
 
 
