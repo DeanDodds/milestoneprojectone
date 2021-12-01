@@ -7,9 +7,6 @@ body {
   font-size: 62.5%;
 }
 
-section {
-  padding: 30px 5px
-}
 
 h1,
 h2,
@@ -50,6 +47,12 @@ p {
 
 strong {
   font-weight: 900;
+}
+
+/*       sections */
+
+section {
+  padding: 30px 5px;
 }
 
 /*                                   Navbar           */
@@ -103,6 +106,8 @@ strong {
 .grid-col-one p {
   text-align: center;
 }
+
+
 
 @media screen and (min-width: 1225px) {
   .about-grid-container {
@@ -171,6 +176,10 @@ a {
 /*                                      Showcase Feature */
 
 /* Showcase Cards */
+#showcase {
+  background-color: #212529;
+}
+
 .showcase {
   width: 100%;
   padding: 30px 0 20px;
@@ -242,7 +251,6 @@ showcase-card-main #tracks iframe {
   box-shadow: none;
   background-color: white;
   overflow: hidden;
-  overflow-y: scroll;
 }
 
 #gallery img {
@@ -362,6 +370,8 @@ showcase-card-main #tracks iframe {
   background-attachment: fixed;
 } */
 
+
+
 .display-none-md,
 .display-none-lg {
   display: none;
@@ -407,6 +417,9 @@ showcase-card-main #tracks iframe {
 
 }
 
+#get-in-touch {
+  background-color: lightgrey;
+}
 
 
 /*       Buttons          */
@@ -851,13 +864,6 @@ request-container {
   width: 40%;
 }
 
-@media screen and (min-width: 700px) {
-
-  .display-none {
-    display: block;
-  }
-
-}
 
 .setlist-title {
   padding-top: 20px;
@@ -870,6 +876,7 @@ request-container {
 
 @media screen and (min-width: 1225px) {
 
+  .display-none,
   .display-none-lg {
     display: block;
   }
