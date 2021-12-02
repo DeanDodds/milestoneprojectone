@@ -115,10 +115,13 @@ This project a front end marketing website for North East function band Union Sq
  * Video Player 
 
 ### Setlist 
+ * A list of all songs the band currently plays 
 
 ### Events 
+*  list of all future events with links to directions and tickets 
 
 ### Contact us Page
+* A form for users to make enquirys with the band
 
 ## Technologies Used <a id="technologies"></a>
 -----
