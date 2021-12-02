@@ -65,9 +65,9 @@ section {
 
 .callout {
   height: 70vh;
+  background: url(../images/heroimage.webp) no-repeat center center fixed;
   /* https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels */
   /* Photo by Suvan Chowdhury from Pexels */
-  background: url(../images/heroimage.webp) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -150,9 +150,9 @@ section {
 }
 
 
-/* links */
+/*                     links */
 a {
-  text-decoration: 0;
+  text-decoration: none;
 }
 
 .link-arrow {
@@ -173,6 +173,10 @@ a {
   margin-left: 14px;
 }
 
+h3 a:hover {
+  color: #fad88d;
+}
+
 /*                                      Showcase Feature */
 
 /* Showcase Cards */
@@ -180,21 +184,11 @@ a {
   background-color: #212529;
 }
 
-.showcase {
-  width: 100%;
-  padding: 30px 0 20px;
-}
-
 .showcase-grid-container {
-  width: 90%;
+  width: 100%;
   display: -ms-inline-grid;
-  margin: 0 auto;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 0px 15px;
 }
-
-
-/* dropshadow information found https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow() */
 
 .showcase-card {
   flex-direction: column;
@@ -202,36 +196,28 @@ a {
   width: 100%;
   height: 390px;
   background-color: white;
-  filter: drop-shadow(1px 1px 10px black);
   border-radius: 10px;
-  margin: 0 auto;
-  padding-top: 20px;
+  margin: 15px 0;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#songs .showcase-card-main {
+  box-shadow: inset 0 0 10px #000000;
 }
 
 .showcase-card-main {
   height: 250px;
   width: 90%;
   margin: 0px auto;
-  box-shadow: inset 0 0 10px #000000;
-  background: lightgrey;
   overflow: hidden;
 }
 
 #main-showreel-video {
-  width: 100%;
   height: 100%;
-  margin: 0;
+  width: 100%;
 }
 
-showcase-card-main #tracks iframe {
-  width: 100%;
-  height: 100%;
-  padding: 2px 1px;
-}
-
-
-/* box shadow on one side of a div solution found https://stackoverflow.com/questions/5115427/how-can-i-add-a-box-shadow-on-one-side-of-an-element */
-.showcase-card-footer {
+s .showcase-card-footer {
   justify-self: end;
 }
 
@@ -239,16 +225,7 @@ showcase-card-main #tracks iframe {
   padding: 15px;
 }
 
-.showcase-card-footer button {
-  width: 100%;
-  background: white;
-  border: 0;
-  border-radius: 10px;
-}
-
-
 .gallery {
-  box-shadow: none;
   background-color: white;
   overflow: hidden;
 }
@@ -257,22 +234,26 @@ showcase-card-main #tracks iframe {
   display: inline;
   height: 100%;
   width: 400px;
-  margin: 0;
   padding: 0 5px;
 }
 
+.showcase-card h3 {
+  padding-top: 20px;
+}
+
 /* showcase section for tablet */
+
 @media screen and (min-width: 768px) {
   .showcase-grid-container {
     display: grid;
     grid-template-rows: 400px 400px 400px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+    row-gap: 30px;
   }
 
-  #tracks,
-  #videos {
-    width: 90%;
-    margin: 0 auto;
+  .showcase-card {
+    width: 100%;
   }
 
   #songs {
@@ -296,28 +277,32 @@ showcase-card-main #tracks iframe {
     margin-top: 10px;
   }
 
+  #main-showreel-video {
+    width: 100%;
+    height: 100%;
+  }
+
 }
 
 /* showcase desktop */
 
 @media screen and (min-width: 1020px) {
   .showcase-grid-container {
-    padding-top: 20px;
     display: grid;
     grid-template-rows: 400px 400px;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1.5%;
+    row-gap: 30px;
   }
 
   #songs {
     grid-row: 1;
     grid-column: 1;
-    width: 90%;
   }
 
   #tracks {
     grid-row: 1;
     grid-column: 2;
-    margin: 0 auto;
   }
 
   #videos {
@@ -873,6 +858,7 @@ request-container {
 .setlist-title {
   padding-bottom: 50px;
 }
+
 
 @media screen and (min-width: 1225px) {
 
