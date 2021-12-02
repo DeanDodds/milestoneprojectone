@@ -56,7 +56,20 @@ This project a front end marketing website for North East function band Union Sq
      *  Lora is the font used for the main text through out the website this also as a sans serif fallback. I used this to compliment the montserrat font.
 
    * ### Imagery 
-      * 
+      #### Home Page
+       - 1 x Hero image - Photo by Suvan Chowdhury from Pexels -  https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels 
+       - 1 x image in about section - Photo by MarcAntoine Dépelteauh from StockSnap -https://stocksnap.io/photo/concert-stage-P7JJ4LKNK8
+       - 3 x images in Showcase feature 
+         - Photo by Josh Sorenson from Pexels - https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+         - Photo by picjumbo.com from Pexels - https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+         - Photo by freestock.org from Pexels - https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+      
+      #### Video and Music Page 
+      - 4 x images - all created by developer
+      
+      ##  Contact Page 
+      - 1 x background image Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
+
 
    * ### Videos
       * 
