@@ -30,7 +30,8 @@
         <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <img class="offcanvas-title logo" id="offcanvasNavbarLabel" src="assets/images/logo-light.webp">
+            <img class="offcanvas-title logo" id="offcanvasNavbarLabel" src="assets/images/logo-light.webp"
+              alt="Union Square Sessions Logo">
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="container-fluid">
@@ -50,6 +51,7 @@
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="contacts.html">Contact Us</a>
               </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -67,7 +69,7 @@
         nobis nemo quo similique deserunt aut omnis voluptates? Sit, tempora. consectetur adipisicing elit. Accusantium
         fugit hic repellendus..</p>
       <button class="btn btn-secondary btn-lg btn-main" data-bs-toggle="modal" data-bs-target="#enquiry">
-        <h3>Book Now</h3>
+        Book Now
       </button>
     </div>
   </section>
@@ -164,7 +166,6 @@
                 <td>Rock</td>
               </tr>
             </tbody>
-            </thead>
           </table>
         </div>
         <div class="showcase-card-footer">
@@ -177,13 +178,13 @@
           <h2><i class="fas fa-headphones" aria-hidden="true"></i>TRACKS</h2>
         </div>
         <div class="showcase-card-main">
-          <iframe width="100%" height="400" scrolling="no" frameborder="yes" allow="autoplay"
+          <iframe width="100%" height="400" allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/341386625%3Fsecret_token%3Ds-BO4g5&color=%23121212&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           <div
             style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
             <a href="https://soundcloud.com/shuffleplayuk" title="The HOLYROLLERS" target="_blank"
-              style="color: #cccccc; text-decoration: none;">The HOLYROLLERS</a> · <a
-              href="https://soundcloud.com/shuffleplayuk/sets/band-reheasal/s-BO4g5" title="The HOLY ROLLERS"
+              style="color: #cccccc; text-decoration: none;">Union Square Sessions</a>
+            <a href="https://soundcloud.com/shuffleplayuk/sets/band-reheasal/s-BO4g5" title="The HOLY ROLLERS"
               target="_blank" style="color: #cccccc; text-decoration: none;">The HOLY ROLLERS</a></div>
         </div>
         <div class="showcase-card-footer">
@@ -208,9 +209,9 @@
           <h2><i class="fas fa-camera" aria-hidden="true"></i> Gallery</h2>
         </div>
         <div class="showcase-card-main gallery">
-          <img src="assets/images/bass.webp" alt="">
-          <img src="assets/images/crowd.webp" alt="">
-          <img src="assets/images/drums.webp" alt="">
+          <img src="assets/images/bass.webp" alt="Dale the Bass player playing the bass">
+          <img src="assets/images/crowd.webp" alt="Crowd at the O22 Academy">
+          <img src="assets/images/drums.webp" alt="Craig th Drummer playing the drums">
         </div>
 
         <div class="showcase-card-footer">
@@ -259,6 +260,7 @@
         <button type="button" class="btn btn-secondary btn-lg btn-main" data-bs-toggle="modal"
           data-bs-target="#enquiry">Check Availability</button>
       </div>
+    </div>
   </section>
   <!-- /.Availability Section -->
 
@@ -288,17 +290,17 @@
           <button type="button" class="btn btn-lg btn-secondary btn-main">Facebook</button><button type="button"
             class="btn btn-secondary btn-lg btn-social btn-main">Twitter</button>
         </div>
-
       </div>
+    </div>
   </section>
   <!--          Get in Touch       -->
 
   <!--     Modals -->
-  <div class="modal fade" id="enquiry" tabindex="-1" aria-labelledby="Check availability" aria-hidden="true">
+  <div class="modal fade" id="enquiry" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog contianer">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Make and Enquiry</h5>
+          <h5 class="modal-title">Make and Enquiry</h5>
         </div>
         <div class="modal-body">
           <form class="modal-enquiry-form" method="POST" action="https://formdump.codeinstitute.net/" id=enquiry-form>
@@ -315,8 +317,8 @@
             <input id="telno" class="text-input" type="tel" name="telephone" placeholder="Telephone"
               aria-label="Telephone" required />
             <label for="etype" class="visually-hidden">Venue Type</label>
-            <select id="etype" class="text-input " type="select" name="gig_type" aria-label="Venue Type">
-              <option selected value="optons" aria-label=".form-select-lg">Venue Event</option>
+            <select id="etype" class="text-input " name="gig_type" aria-label="Venue Type">
+              <option selected value="optons">Event Venue Type</option>
               <option value="party">Party</option>
               <option value="pub">Pub</option>
               <option value="socialclub">Social Club</option>
@@ -327,9 +329,9 @@
             <input id="vname" class="text-input " type="text" name="venue_name" placeholder="Venue Name"
               aria-label="Venue Name" required />
             <label for="vpostcode" class="visually-hidden">Venue Postcode</label>
-            <input id="vpostcode" class="text-input" type="postcode" name="venue_postcode" placeholder="Venue Postcode"
+            <input id="vpostcode" class="text-input" type="text" name="venue_postcode" placeholder="Venue Postcode"
               aria-label="Venue Postcode" required />
-            <textarea class="textarea" rows="5" name="message" value="message" form="enquiry-form">
+            <textarea class="textarea" rows="5" name="message" form="enquiry-form">
             Enquiry</textarea>
             <div>
               <input class="submit-button btn-secondary btn-lg text-center btn-main" type="submit" value="Submit" />
@@ -344,31 +346,30 @@
     </div>
   </div>
 
-  <div class="modal fade" id="call-back" tabindex="-1" aria-labelledby="Request a call back" aria-hidden="true">
+  <div class="modal fade" id="call-back" tabindex="-1" aria-labelledby="call-back" aria-hidden="true">
     <div class="modal-dialog contianer">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Check Avaiability</h5>
+          <h5 class="modal-title">Check Avaiability</h5>
         </div>
         <div class="modal-body">
-          <form class="modal-enquiry-form" method="POST" action="https://formdump.codeinstitute.net/" id=enquiry-form>
-            <label for="fname" class="visually-hidden">First Name</label>
-            <input id="fname" class="text-input" aria-label="First Name" type="text" name="first_name"
+          <form class="modal-enquiry-form" method="POST" action="https://formdump.codeinstitute.net/" id=call-back-form>
+            <label for="fname-2" class="visually-hidden">First Name</label>
+            <input id="fname-2" class="text-input" aria-label="First Name" type="text" name="first_name"
               placeholder="First Name" required />
-            <label for="lname" class="visually-hidden">Last Name</label>
-            <input id="lname" class="text-input" type="text" aria-label="Last Name" name="last_name"
+            <label for="lname-2" class="visually-hidden">Last Name</label>
+            <input id="lname-2" class="text-input" type="text" aria-label="Last Name" name="last_name"
               placeholder="Last Name" required />
-            <label for="email" class="visually-hidden">Email</label>
-            <input id="email" class="text-input" type="email" name="email_address" placeholder="Email"
+            <label for="email-2" class="visually-hidden">Email</label>
+            <input id="email-2" class="text-input" type="email" name="email_address" placeholder="Email"
               aria-label="Email" required />
-            <label for="telno" class="visually-hidden">Telephone</label>
-            <input id="telno" class="text-input" type="tel" name="telephone" placeholder="Telephone"
+            <label for="telno-2" class="visually-hidden">Telephone</label>
+            <input id="telno-2" class="text-input" type="tel" name="telephone" placeholder="Telephone"
               aria-label="Telephone" required />
-            <textarea class="textarea" rows="5" name="Additional Information" value="additional-Information"
-              form="enquiry-form">
+            <textarea id="text-messgae" class="textarea" rows="5" name="Additional Information" form="call-back-form">
             Additional Information</textarea>
             <div>
-              <input class="submit-button btn-secondary btn-lg text-center btn-main" type="submit" value="Submit" />
+              <input class=" submit-button btn-secondary btn-lg text-center btn-main" type="submit" value="Submit" />
             </div>
           </form>
         </div>
