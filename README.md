@@ -67,12 +67,18 @@ This project a front end marketing website for North East function band Union Sq
       #### Video and Music Page 
       - 4 x images - all created by developer
       
-      ##  Contact Page 
+      ###  Contact Page 
       - 1 x background image Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
 
 
-   * ### Videos
-      * 
+   ### Videos
+      ### Home page 
+      - 1 showreel video created by developer
+
+      ### Video and Music Page
+      - 
+      - 3 x videos created by developer
+      - 1 x Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
    
 3. ## Wireframes <a id="wireframes"></a>
     * Home pages wireframes - [View](wireframes/indexwireframe.png)
@@ -90,12 +96,23 @@ This project a front end marketing website for North East function band Union Sq
  * All pages have a colapable navigation bar this makes it fully responsive on all devices 
 
 ### Footer 
- * The footer contains links to social media and contact details for the band. 
+ * All pages hsve a footer thst contains links to social media and contact details for the band. 
 
 ### Home Page
-
+ * Call out with call to action button
+ * Responsive About feature
+ * Responsive Showcase feature with:
+    - setlist
+    - audio 
+    - video 
+    - images. 
+    All have links for users to discover more content
+ * A feature about the bands services with call to action buttons
+ * A feature for users easily make enquirys and get in touch with the band 
 
 ### Video and Music
+ * Music Player 
+ * Video Player 
 
 ### Setlist 
 
