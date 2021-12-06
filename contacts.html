@@ -24,13 +24,14 @@
         <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo-light.gif"
             alt="Union Square Sessions Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar">
+          aria-controls="offcanvasNavbar" aria-label="Open navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <img class="offcanvas-title logo" id="offcanvasNavbarLabel" src="assets/images/logo-light.gif" alt="Union Square Sessions Logo">
+            <img class="offcanvas-title logo" id="offcanvasNavbarLabel" src="assets/images/logo-light.gif"
+              alt="Union Square Sessions Logo">
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="container-fluid">
@@ -77,7 +78,7 @@
           required />
         <div class="form-inline">
           <label for="etype" class="visually-hidden">Venue Type</label>
-          <select id="etype" class="text-input " name="gig_type" aria-label="Venue Type">
+          <select id="etype" class="text-input " name="gig_type">
             <option selected value="optons" aria-label="Event Venue">Event Venue</option>
             <option value="party">Party</option>
             <option value="">Pub</option>
@@ -94,7 +95,8 @@
           <input id="vpostcode" class="text-input margin-left" type="text" name="venue_postcode"
             placeholder="Venue Postcode" aria-label="Venue Postcode" required />
         </div>
-        <textarea class="textarea" rows="5" name="message" form="enquiry-form"> Enquiry</textarea>
+        <label for="textarea" class="visually-hidden">Make and Enquiry</label>
+        <textarea id="textarea" class="textarea" rows="5" name="message" form="enquiry-form"> Enquiry</textarea>
         <div>
           <input class="submit-button btn-secondary btn-lg text-center btn-main" type="submit" value="Submit" />
         </div>
@@ -139,20 +141,20 @@
       <h3 class="text-uppercase general-sub">Follow Us</h3>
       <ul class="list-inline social-links">
         <li class="list-inline-item">
-          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i><span
-              class="sr-only">Facebook</span></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"
+              aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
         </li>
         <li class="list-inline-item">
-          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i><span
-              class="sr-only">Instagram</span></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fab fa-instagram"
+              aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
         </li>
         <li class="list-inline-item">
-          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i><span
-              class="sr-only">Twitter</span></a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fab fa-twitter"
+              aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
         </li>
         <li class="list-inline-item">
-          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i><span
-              class="sr-only">YouTube</span></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fab fa-youtube"
+              aria-hidden="true"></i><span class="sr-only">YouTube</span></a>
         </li>
       </ul>
     </div>
