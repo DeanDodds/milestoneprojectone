@@ -17,6 +17,7 @@ This project a front end marketing website for North East function band Union Sq
     * [Langagues Used](#langagues)
     * [Frameworks, Libraries and Programs used](#frameworks)
 5. [Testing](#testing)
+6. [Deployment](#deployment)
 
 
 
@@ -156,5 +157,18 @@ This project a front end marketing website for North East function band Union Sq
 ## Testing <a id="testing"></a>
 -----
 
+## Deployment <a id="deployment"></a>
+-----
+
+## Github pages
+
+I Deployed my project to Github pages using the following steps:
+
+1. I loggrd in to Github and found my [repositorys](https://github.com/DeanDodds/milestoneprojectone)
+2. I then clicked on settings, this was located just about the green GitPod button.
+3. I scolled down through the setting menu and clicked on the pages section
+4. from there, I  went to the source section and under the dropdown menu labeled none i selcted the new-main 
+5. i clicked save 
+6. after a feew minutes the site was live and the link to the published web site is generated [link](https://deandodds.github.io/milestoneprojectone/)
 
    
