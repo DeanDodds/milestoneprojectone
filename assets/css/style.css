@@ -90,7 +90,6 @@ section {
   margin-top: 50px;
 }
 
-
 .display-none {
   display: none;
 }
@@ -305,7 +304,6 @@ iframe {
   }
 }
 
-
 /* Table Styles */
 .showcase-card-main table {
   margin: 0 auto;
@@ -392,7 +390,7 @@ iframe {
   background-color: lightgrey;
 }
 
-/*       Buttons          */
+/* Buttons */
 .btn-main {
   background-color: #212529;
   border: #212529;
@@ -406,7 +404,7 @@ iframe {
   margin-left: 10px;
 }
 
-/*      Footer        */
+/* Footer */
 footer {
   clear: both;
   background-color: #212529;
@@ -487,7 +485,6 @@ footer h3 {
   text-align: right;
   margin-right: 10px;
 }
-
 
 @media screen and (min-width: 768px) {
   .footer-grid-container {
@@ -612,7 +609,6 @@ input::placeholder {
   background-color: #96999a;
   width: 100%;
   color: black;
-
 }
 
 .event-header {
@@ -660,7 +656,6 @@ input::placeholder {
 }
 
 @media screen and (min-width: 700px) {
-
   .event-grid-container {
     display: grid;
     grid-template-columns: 30% 35% 35%;
@@ -811,6 +806,5 @@ input::placeholder {
 
   .song-list-table table {
     width: 40%;
-
   }
 }
