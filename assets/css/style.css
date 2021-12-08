@@ -343,7 +343,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1170px) {
   #get-in-touch-grid-change {
     display: grid;
     grid-template-columns: 33% 34% 33%;
@@ -359,6 +359,10 @@ iframe {
 
   .hr-display-none {
     display: none;
+  }
+
+  #get-in-touch-socal-links {
+    width: 90%;
   }
 }
 
