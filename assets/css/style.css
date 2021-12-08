@@ -311,12 +311,12 @@ iframe {
   border-collapse: collapse;
 }
 
-.showcase-card-main table tr:nth-child(odd) {
+table tr:nth-child(odd) {
   background: black;
   color: white;
 }
 
-.showcase-card-main thead tr td {
+thead tr td {
   font-weight: 700;
   padding: 5px 0;
   background: white;
@@ -755,7 +755,7 @@ input::placeholder {
 
 /* Setlist page */
 .setlist-container {
-  width: 95%;
+  width: 100%;
   margin: 20px auto;
 }
 
@@ -763,11 +763,6 @@ input::placeholder {
   margin: 20px auto;
   width: 100%;
   border-collapse: collapse;
-}
-
-.song-list-table tr:nth-child(odd) {
-  background: grey;
-  color: white;
 }
 
 .song-list-table thead tr td {
@@ -801,10 +796,11 @@ input::placeholder {
 
 @media screen and (min-width: 1225px) {
   .song-list-table {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .song-list-table table {
-    width: 40%;
+    width: 75%;
   }
 }
