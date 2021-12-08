@@ -383,7 +383,6 @@ thead tr td {
   .hr-display-none {
     display: none;
   }
-
 }
 
 #get-in-touch {
@@ -759,31 +758,21 @@ input::placeholder {
   margin: 20px auto;
 }
 
-.song-list-table table {
+table {
   margin: 20px auto;
   width: 100%;
   border-collapse: collapse;
 }
 
-.song-list-table thead tr td {
+thead tr td {
   font-weight: 700;
   padding: 5px 0;
   background: white;
   color: black;
 }
 
-.song-list-table td {
+td {
   border: 1px solid black;
-}
-
-.table-1 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.table-2 {
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .setlist-title {
@@ -794,7 +783,7 @@ input::placeholder {
   padding-bottom: 50px;
 }
 
-@media screen and (min-width: 1225px) {
+@media screen and (min-width: 1000px) {
   .song-list-table {
     display: grid;
     grid-template-columns: 1fr 1fr;
