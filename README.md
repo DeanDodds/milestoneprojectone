@@ -3,7 +3,7 @@
 
 [View live website here....](#)
 
-![Mock up of website](wireframes/mockup.png)
+![Mock up of website](wireframes/design/mockup.png)
 
 This project a front end marketing website for North East function band Union Sqaure Sessions. The purpose of the website is to promote the band to any potenial costumers and encourage users to make inquirys and bookings.
 
@@ -52,7 +52,7 @@ This project a front end marketing website for North East function band Union Sq
 2. ## Design <a id="design"></a>
    
    * ### Color Scheme
-     * 
+     ![Colour Pallete](wireframes/design/colorpalete.png)
 
    * ### Typography
      *  Montserrat is the main font used for all headers with a sans serif fallback.
@@ -79,9 +79,11 @@ This project a front end marketing website for North East function band Union Sq
       - 1 showreel video created by developer
 
       ### Video and Music Page
-      - 
       - 3 x videos created by developer
       - 1 x Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
+      
+      ### Contact us page
+      - 1 x background image by Vishnu R Nair from Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
    
 3. ## Wireframes <a id="wireframes"></a>
     * Home pages wireframes - [View](wireframes/indexwireframe.png)
@@ -169,6 +171,35 @@ W3C Mark up Validator
 
 W3C CSS Validator
 * [View](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Further Testing
+
+I have tested my project on a varity of browsers such as:
+  * Google Chrome 
+  * Microsoft Egde
+  * Firefox 
+  * Safari
+
+I have also tested it on arrange of devices such as
+  * Iphone 6
+  * Iphone S
+  * laptop 
+  * Desktop
+  * Huawei T10 tablet
+
+I also used the chrome developer tools to test responsiveness on different device simulations.
+
+I asked my friends and family to visit the website and report any problems the encounter 
+
+I have done a large amount of testing on all pages to ensure all:
+  * links 
+  * videos 
+  * buttons  
+are working correctly and fixed and broken links 
+
+
+
+
 
 ## Deployment <a id="deployment"></a>
 -----
