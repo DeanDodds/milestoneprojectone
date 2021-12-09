@@ -19,7 +19,18 @@ This project a front end marketing website for North East function band Union Sq
     * [Langagues Used](#langagues)
     * [Frameworks, Libraries and Programs used](#frameworks)
 5. [Testing](#testing)
+    * [Testing User Stories from User Experience (UX) Section](#user)
+    * [Further Testing](#ftesting)
+    * [Known Bugs](#bugs)
 6. [Deployment](#deployment)
+    * [Github pages](#pages)
+    * [Making a local clone](#clone)
+    * [Forking the GitHub Repository](#fork)
+7. [Credis](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+8. [Acknowledgements](#acknowledgements)
 
 
 
@@ -59,26 +70,28 @@ This project a front end marketing website for North East function band Union Sq
      *  Lora is the font used for the main text through out the website this also as a sans serif fallback. I used this to compliment the montserrat font.
 
    * ### Imagery 
-      #### Home Page
+
+      ### Home Page
        - 1 x Hero image 
        - 1 x image in about section 
        - 3 x images in Showcase feature 
       
-      #### Video and Music Page 
-      - 4 x images 
+      ### Video and Music Page 
+       - 4 x images 
       
       ###  Contact Page 
-      - 1 x background image
+       - 1 x background image
 
-   ### Videos
+   * ## Videos
+
       ### Home page 
-      - 1 showreel video created by developer
+        - 1 showreel video created by developer
 
       ### Video and Music Page
-      - 4 x videos 
+        - 4 x videos 
       
       ### Contact us page
-      - 1 x background image 
+        - 1 x background image 
    
 3. ## Wireframes <a id="wireframes"></a>
     * Home pages wireframes - [View](wireframes/indexwireframe.png)
@@ -110,32 +123,32 @@ This project a front end marketing website for North East function band Union Sq
  * A feature about the bands services with call to action buttons
  * A feature for users easily make enquirys and get in touch with the band 
 
-### Video and Music
+### Music/Video Page
  * Music Player 
  * Video Player 
 
-### Setlist 
+### Setlist Page
  * A list of all songs the band currently plays 
 
-### Events 
+### Events Page
 *  list of all future events with links to directions and tickets 
 
-### Contact us Page
+### Contact us Page Page
 * A form for users to make enquirys with the band
 
-### Future Features 
+### Future Features Page
 * Testimonial page 
 * Gallery slider on home page
 
 ## Technologies Used <a id="technologies"></a>
 -----
 
-## Langagues Used <a id="langagues"></a>
+### Langagues Used <a id="langagues"></a>
 * HTML5
 * CSS
 * JavaScript
 
-## Frameworks, Libraries and Programs used <a id="frameworks"></a>
+### Frameworks, Libraries and Programs used <a id="frameworks"></a>
 1. Bootstrap 5:
    * Used for responsiveness and styling of the website.
 2. Slick:
@@ -159,6 +172,7 @@ This project a front end marketing website for North East function band Union Sq
 
 ## Testing <a id="testing"></a>
 -----
+
 I used the W3C Markup and CSS Validator Service to ensure there was no syntax errors all my pages.
 
 W3C Mark up Validator
@@ -169,9 +183,12 @@ W3C Mark up Validator
  * Contact Us - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Fcontacts.html)
 
 W3C CSS Validator
-* [View](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ * [View](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-## Further Testing
+## Testing User Stories from User Experience (UX) Section <a id="user"></a>
+* 
+
+## Further Testing <a id="ftesting"></a>
 
 I have tested my project on a varity of browsers such as:
   * Google Chrome 
@@ -196,7 +213,7 @@ I have done a large amount of testing on all pages to ensure all:
   * buttons  
 are working correctly and fixed and broken links 
 
-## Known Bugs
+## Known Bugs <a id="bugs"></a>
 * On iphone s devices home page callout section spills over its container and the background image is too zoomed in 
 * On iphone s devices home page showcase card links need extra padding
 * on iphone s devices contact page enquiry form overflows the container.
@@ -206,7 +223,7 @@ are working correctly and fixed and broken links
 ## Deployment <a id="deployment"></a>
 -----
 
-### Github pages
+### Github pages <a id=pages></a>
 
 I Deployed my project to Github pages using the following steps:
 
@@ -217,7 +234,7 @@ I Deployed my project to Github pages using the following steps:
 5. i clicked save 
 6. after a feew minutes the site was live and the link to the published web site is generated [link](https://deandodds.github.io/milestoneprojectone/)
 
-### Making a local clone 
+### Making a local clone <A id="clone"></a>
 
 You can clone a Github repository to your local computer by following these steps:
 
@@ -228,7 +245,7 @@ You can clone a Github repository to your local computer by following these step
 
 You can see more information on making local clones [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
-### Forking the GitHub Repository
+### Forking the GitHub Repository <A id="fork"></a>
 
 Forking a Github repositary allows you to make a copy that you can work on without effecting the original repository. You can fork a repository by:
 
@@ -236,10 +253,10 @@ Forking a Github repositary allows you to make a copy that you can work on witho
 2. on the top right hand side of the page locate click fork button 
 3. the copy of this resository should now be in your own repositorys
 
-## Credits
+## Credits <a id="credits"></a>
 ------
 
-### Code
+### Code <a id="code"></a>
    - Code Institute love video love running footer socail links and contact form styling 
    - copywrite postioning from [Stackoverflow](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div)
    - Video player button onclick code from [Stackoverflow](https://stackoverflow.com/questions/46817842/using-the-same-div-to-show-different-videos-on-click)
@@ -248,10 +265,10 @@ Forking a Github repositary allows you to make a copy that you can work on witho
    - [slick](https://kenwheeler.github.io/slick/) library used for video player image slider 
     
 
-### Content
+### Content <a id="content"></a>
    - All content written by Developoer
 
-### Media 
+### Media <a id="media"></a>
 
 ### Images
    - 1 x Hero image - Photo by Suvan Chowdhury from Pexels -  https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels 
@@ -264,7 +281,7 @@ Forking a Github repositary allows you to make a copy that you can work on witho
 ### Vidoes
    - Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
 
-## Acknowledgements
+## Acknowledgements <a id="acknowledgements"></a>
    - Chris Quinn- My Mentor for continuous helpful feedback and advice.
    - The Code Institute Slack Community 
 
