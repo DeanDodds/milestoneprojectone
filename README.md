@@ -123,6 +123,10 @@ This project a front end marketing website for North East function band Union Sq
 ### Contact us Page
 * A form for users to make enquirys with the band
 
+### Future Features 
+* Testimonial page 
+* Gallery slider on home page
+
 ## Technologies Used <a id="technologies"></a>
 -----
 
@@ -236,22 +240,32 @@ Forking a Github repositary allows you to make a copy that you can work on witho
 ------
 
 ### Code
-     - 
+   - Code Institute love video love running footer socail links and contact form styling 
+   - copywrite postioning from [Stackoverflow](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div)
+   - Video player button onclick code from [Stackoverflow](https://stackoverflow.com/questions/46817842/using-the-same-div-to-show-different-videos-on-click)
+   - Slick slider button fix [Stackoverflow](https://stackoverflow.com/questions/46817842/using-the-same-div-to-show-different-videos-on-click))
+   - [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) library used throughout 
+   - [slick](https://kenwheeler.github.io/slick/) library used for video player image slider 
+    
 
 ### Content
-      - All content written by Developoer
+   - All content written by Developoer
 
 ### Media 
 
-## Images
-      - 1 x Hero image - Photo by Suvan Chowdhury from Pexels -  https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels 
-      - Photo by MarcAntoine Dépelteauh from StockSnap -https://stocksnap.io/photo/concert-stage-P7JJ4LKNK8
-      - Photo by Josh Sorenson from Pexels - https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-      - Photo by picjumbo.com from Pexels - https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-      - Photo by freestock.org from Pexels - https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
-      - Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
+### Images
+   - 1 x Hero image - Photo by Suvan Chowdhury from Pexels -  https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels 
+   - Photo by MarcAntoine Dépelteauh from StockSnap -https://stocksnap.io/photo/concert-stage-P7JJ4LKNK8
+   - Photo by Josh Sorenson from Pexels - https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+   - Photo by picjumbo.com from Pexels - https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+   - Photo by freestock.org from Pexels - https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
+   - Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
 
 ### Vidoes
-      - Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
+   - Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
+
+## Acknowledgements
+   - Chris Quinn- My Mentor for continuous helpful feedback and advice.
+   - The Code Institute Slack Community 
 
 
