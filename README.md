@@ -173,7 +173,7 @@ W3C CSS Validator
 ## Deployment <a id="deployment"></a>
 -----
 
-## Github pages
+### Github pages
 
 I Deployed my project to Github pages using the following steps:
 
@@ -184,8 +184,10 @@ I Deployed my project to Github pages using the following steps:
 5. i clicked save 
 6. after a feew minutes the site was live and the link to the published web site is generated [link](https://deandodds.github.io/milestoneprojectone/)
 
-## Making a local clone 
-You can clone a Github repository to your local computer by following these steps
+### Making a local clone 
+
+You can clone a Github repository to your local computer by following these steps:
+
 1. On GitHub.com, navigate the repository page
 2. Above the list of files click on the Code dropdown menu
 3. select the download zip file 
@@ -193,8 +195,12 @@ You can clone a Github repository to your local computer by following these step
 
 You can see more information on making local clones [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
-## Forking the GitHub Repositary
+### Forking the GitHub Repository
+
+Forking a Github repositary allows you to make a copy that you can work on without effecting the original repository. You can fork a repository by:
+
+1. On GitHub.com, navigate the repository page of the repository you would like to fork
+2. on the top right hand side of the page locate click fork button 
+3. the copy of this resository should now be in your own repositorys
 
 
-
-## 
