@@ -184,4 +184,17 @@ I Deployed my project to Github pages using the following steps:
 5. i clicked save 
 6. after a feew minutes the site was live and the link to the published web site is generated [link](https://deandodds.github.io/milestoneprojectone/)
 
-   
+## Making a local clone 
+You can clone a Github repository to your local computer by following these steps
+1. On GitHub.com, navigate the repository page
+2. Above the list of files click on the Code dropdown menu
+3. select the download zip file 
+4. once the files have downloaded you can extract them form the zip file and run them on your local environment 
+
+You can see more information on making local clones [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+
+## Forking the GitHub Repositary
+
+
+
+## 
