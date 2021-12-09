@@ -60,10 +60,8 @@ section {
 
 /* Callout section */
 .callout {
-  height: 70vh;
+  height: 65vh;
   background: url(../images/heroimage.webp) no-repeat center center fixed;
-  /* https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels */
-  /* Photo by Suvan Chowdhury from Pexels */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -134,7 +132,7 @@ section {
   }
 
   .grid-col-one h1 {
-    margin: 40px auto 0;
+    margin: 0 auto;
   }
 }
 
