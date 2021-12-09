@@ -60,30 +60,25 @@ This project a front end marketing website for North East function band Union Sq
 
    * ### Imagery 
       #### Home Page
-       - 1 x Hero image - Photo by Suvan Chowdhury from Pexels -  https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels 
-       - 1 x image in about section - Photo by MarcAntoine Dépelteauh from StockSnap -https://stocksnap.io/photo/concert-stage-P7JJ4LKNK8
+       - 1 x Hero image 
+       - 1 x image in about section 
        - 3 x images in Showcase feature 
-         - Photo by Josh Sorenson from Pexels - https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-         - Photo by picjumbo.com from Pexels - https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-         - Photo by freestock.org from Pexels - https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
       
       #### Video and Music Page 
-      - 4 x images - all created by developer
+      - 4 x images 
       
       ###  Contact Page 
-      - 1 x background image Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
-
+      - 1 x background image
 
    ### Videos
       ### Home page 
       - 1 showreel video created by developer
 
       ### Video and Music Page
-      - 3 x videos created by developer
-      - 1 x Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
+      - 4 x videos 
       
       ### Contact us page
-      - 1 x background image by Vishnu R Nair from Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      - 1 x background image 
    
 3. ## Wireframes <a id="wireframes"></a>
     * Home pages wireframes - [View](wireframes/indexwireframe.png)
@@ -197,7 +192,10 @@ I have done a large amount of testing on all pages to ensure all:
   * buttons  
 are working correctly and fixed and broken links 
 
-
+## Known Bugs
+* On iphone s devices home page callout section spills over its container and the background image is too zoomed in 
+* On iphone s devices home page showcase card links need extra padding
+* on iphone s devices contact page enquiry form overflows the container.
 
 
 
@@ -233,5 +231,27 @@ Forking a Github repositary allows you to make a copy that you can work on witho
 1. On GitHub.com, navigate the repository page of the repository you would like to fork
 2. on the top right hand side of the page locate click fork button 
 3. the copy of this resository should now be in your own repositorys
+
+## Credits
+------
+
+### Code
+     - 
+
+### Content
+      - All content written by Developoer
+
+### Media 
+
+## Images
+      - 1 x Hero image - Photo by Suvan Chowdhury from Pexels -  https://www.pexels.com/photo/person-playing-string-instruments-144428/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels 
+      - Photo by MarcAntoine Dépelteauh from StockSnap -https://stocksnap.io/photo/concert-stage-P7JJ4LKNK8
+      - Photo by Josh Sorenson from Pexels - https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      - Photo by picjumbo.com from Pexels - https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      - Photo by freestock.org from Pexels - https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
+      - Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
+
+### Vidoes
+      - Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
 
 
