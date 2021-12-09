@@ -3,6 +3,8 @@
 
 [View live website here....](#)
 
+![Mock up of website](wireframes/mockup.png)
+
 This project a front end marketing website for North East function band Union Sqaure Sessions. The purpose of the website is to promote the band to any potenial costumers and encourage users to make inquirys and bookings.
 
 # Table of Contents
@@ -156,6 +158,17 @@ This project a front end marketing website for North East function band Union Sq
 
 ## Testing <a id="testing"></a>
 -----
+I used the W3C Markup and CSS Validator Service to ensure there was no syntax errors all my pages.
+
+W3C Mark up Validator
+ * Home Page - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Findex.html)
+ * Music/Video - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Fmedia.html)
+ * Setlist - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Fsetlist.html) 
+ * Events - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Fevents.html)
+ * Contact Us - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Fcontacts.html)
+
+W3C CSS Validator
+* [View](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Deployment <a id="deployment"></a>
 -----
