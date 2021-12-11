@@ -1,10 +1,11 @@
-# Testing <a id="testing"></a>
+# Testing
 -----
 # Table of Contents
 
-* [Testing](#testing)
-* [Validation](#validation)
-* [Testing User Stories from User Experience (UX) Section](#user)
+
+1. [Validation](#validation)
+2. [Testing User Stories from User Experience (UX) Section](#user)
+3. [Lighthouse Reports](#lighthouse )
 * [Further Testing](#ftesting)
 * [Known Bugs](#bugs)
 
@@ -57,14 +58,43 @@ W3C CSS Validator
       4. As a website Creator, I want to my website to be as accesible as possible so all users are able to have use to it.
       - Webpages all pass lighthouse accesibility testing.
 
+## lighthouse testing. <a id="lighthouse"></a>
+
+All my pages have went through google dev tools lighthouse analylis and scored on
+      * Performance 
+      * Accesibility
+      * Best Practices
+      * Search Engine Optimization (SEO)
+
+  ### Home Page
+
+  ![Home page lighthouse screen shot](wireframes/design/indexlighthousescreenshot.png)
+
+  ### Music/Video Page
+
+  ![Music/Video page lighthouse screen shot](wireframes/design/medialighthousescreenshot.png)
+
+  ### Set List Page
+
+  ![Set List page lighthouse screen shot](wireframes/design/setlistpagescreenshot.png)
+
+  ### Events Page
+
+  ![Events page lighthouse screen shot](wireframes/design/eventslighthouse.png)
+
+  ### Contacts Page 
+
+  ![Contacts Us page lighthouse screen shot](wireframes/design/contactuslighthousescreenshot.png)
+
 ## Further Testing <a id="ftesting"></a>
 
 I have tested my project on a varity of browsers such as:
   * Google Chrome 
 
   ![Screen shot of Google Chrome](wireframes/design/chrome-screenshot.png)
-  * Microsoft Egde
+
   * Firefox 
+  ![Screen shot of Firefox Browser ](wireframes/design/fireboxscreenshot.png)
   * Safari
 
   ![Screen shot of Safari](wireframes/design/safari-screenshot.png)
@@ -87,6 +117,6 @@ I have done a large amount of testing on all pages to ensure all:
 are working correctly and fixed and broken links 
 
 ## Known Bugs <a id="bugs"></a>
-* On iphone s devices home page callout section spills over its container and the background image is too zoomed in 
-* On iphone s devices home page showcase card links need extra padding
-* on iphone s devices contact page enquiry form overflows the container.
+* On older devices home page callout section spills over its container and the background image is too zoomed in 
+* On older devices home page showcase card links need extra padding
+* on older devices contact page enquiry form overflows the container.
