@@ -61,9 +61,13 @@ W3C CSS Validator
 
 I have tested my project on a varity of browsers such as:
   * Google Chrome 
+
+  ![Screen shot of Google Chrome](wireframes/design/chrome-screenshot.png)
   * Microsoft Egde
   * Firefox 
   * Safari
+
+  ![Screen shot of Safari](wireframes/design/safari-screenshot.png)
 
 I have also tested it on arrange of devices such as
   * Iphone 6

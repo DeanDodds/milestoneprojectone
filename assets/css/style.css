@@ -77,6 +77,12 @@ section {
   margin: 50px 0;
 }
 
+@media screen and (max-width: 500px) {
+  .callout {
+    background: url(../images/smallheroimage.webp) no repeat center center fixed;
+  }
+}
+
 /* About */
 .about {
   text-align: center;
