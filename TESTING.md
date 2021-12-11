@@ -1,15 +1,16 @@
 # Testing
------
-# Table of Contents
 
+## Table of Contents
 
 1. [Validation](#validation)
 2. [Testing User Stories from User Experience (UX) Section](#user)
 3. [Lighthouse Reports](#lighthouse )
-* [Further Testing](#ftesting)
-* [Known Bugs](#bugs)
+4. [Further Testing](#ftesting)
+5. [Known Bugs](#bugs)
+------
 
 ## Validation <a id="validation"></a>
+
 I used the W3C Markup and CSS Validator Service to ensure there was no syntax errors all my pages.
 
 W3C Mark up Validator
@@ -89,16 +90,20 @@ All my pages have went through google dev tools lighthouse analylis and scored o
 ## Further Testing <a id="ftesting"></a>
 
 I have tested my project on a varity of browsers such as:
-  * Google Chrome 
+  ### Google Chrome 
 
   ![Screen shot of Google Chrome](wireframes/design/chrome-screenshot.png)
 
-  * Firefox 
+
+  ### Firefox 
   ![Screen shot of Firefox Browser ](wireframes/design/fireboxscreenshot.png)
-  * Safari
+
+
+  ### Safari
 
   ![Screen shot of Safari](wireframes/design/safari-screenshot.png)
-
+  
+  
 I have also tested it on arrange of devices such as
   * Iphone 6
   * Iphone S
