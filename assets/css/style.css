@@ -533,6 +533,7 @@ select,
 
 .text-input {
   height: 40px;
+  padding: 10px;
 }
 
 textarea,
@@ -563,14 +564,14 @@ input::placeholder {
   }
 
   .margin-left {
-    margin-left: 25px;
+    margin-left: 22px;
   }
 }
 
 @media screen and (min-width: 1225px) {
   .contact-form-title {
     position: absolute;
-    left: 13%;
+    left: 20%;
     padding-top: 80px;
   }
 
@@ -581,6 +582,10 @@ input::placeholder {
     position: absolute;
     left: 10%;
     padding: 30px;
+  }
+
+  .margin-left {
+    margin-left: 40px;
   }
 }
 
