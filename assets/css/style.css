@@ -621,7 +621,10 @@ input::placeholder {
 
 .disabled {
   pointer-events: none;
-  width: 100px;
+}
+
+.btn-spacing {
+  margin: 5px;
 }
 
 .event-grid-container {
