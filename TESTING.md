@@ -122,6 +122,6 @@ I have done a large amount of testing on all pages to ensure all:
 are working correctly and fixed and broken links 
 
 ## Known Bugs <a id="bugs"></a>
-* On older devices home page callout section spills over its container and the background image is too zoomed in 
-* On older devices home page showcase card links need extra padding
-* on older devices contact page enquiry form overflows the container.
+* On older devices home page callout section spills over its container and the background image is too zoomed in  
+* On older devices home page showcase card links spill over the card container. - fixed by reducing font size on small screens 
+* on older devices contact page enquiry form overflows the container - fixed by adding hieght to form contianer 
