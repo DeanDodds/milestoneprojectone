@@ -594,7 +594,7 @@ input::placeholder {
 
 .modal-enquiry-form input,
 .modal-enquiry-form select,
-..modal-enquiry-form textarea {
+.modal-enquiry-form textarea {
   width: 95%;
   margin: 0px auto;
 }
