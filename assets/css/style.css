@@ -32,6 +32,7 @@ h4 {
 }
 
 p,
+.lead,
 table {
   font-family: 'Lora', sans-serif;
   font-size: 1.6rem;
@@ -519,6 +520,7 @@ footer h3 {
   max-width: 600px;
 }
 
+select,
 .textarea,
 .text-input {
   background: transparent;
@@ -585,6 +587,20 @@ input::placeholder {
 /* model contact forms */
 .modal-enquiry-form {
   background-color: rgb(60, 60, 60);
+  width: 100%;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+.modal-enquiry-form input,
+.modal-enquiry-form select,
+..modal-enquiry-form textarea {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.modal-title {
+  margin: 0 auto;
 }
 
 /*    Evemts page     */
