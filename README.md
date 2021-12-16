@@ -5,7 +5,9 @@
 
 ![Mock up of website](wireframes/design/mockup.png)
 
-This project a front end marketing website for North East function band Union Sqaure Sessions. The purpose of the website is to promote the band to any potenial costumers and encourage users to make inquirys and bookings.
+
+
+This project is the main front-end marketing website for the North East function band Union Sqaure Sessions. The purpose of the website is to promote the band to any potenial customers and encourage users to make enquiries and bookings.
 
 # Table of Contents
 
@@ -39,19 +41,19 @@ This project a front end marketing website for North East function band Union Sq
 
    * ### First Time Visitor Goals
       * As a first time visitor, I want to be able to understand the main purpose of the website.
-      * As a first time vistor, i want to be able to navigate through out the site and beable to watch, listern and see the bands content easily.
-      * As a first time vistor, i want to be able to beable to easily connect with the band on social media.
-
-    * ### Returning Visitor Goals
-      * As a returning time visitor, i want to be able to beable to book make an enquiry.
-      * As a returning time visitor, i want to be able to beable to find out where i can see the band in the future.
-      * As a returning time visitor, i want to be able to beable to see the band contact information.
+      * As a first time vistor, I want to be able to navigate throughout the site and be able to watch, listen and see the bands content easily.
+      * As a first time vistor, I want to be able to easily connect with the band on social media.
+and 
+    * ### Returning Visitor Goalsand 
+      * As a returning visitor, I want to be able to book and make an enquiry.
+      * As a returning visitor, I want to be able to find out where i can see the band in the future.
+      * As a returning visitor, I want to be able to see the band contact information.
 
     * ### Website Creator goals
-      * As a website Creator, I want to create a website that works on all platforms.
-      * As a website Creator, I want to create a good user experience by having a clear navigation system.
-      * As a website Creator, I want to my website load times to be low. I do not want users leaving the site before it has time to load.
-      * As a website Creator, I want to my website to be as accesible as possible so all users are able to have access to it.
+      * As a website creator, I want to create a website that works on all platforms.
+      * As a website creator, I want to create a good user experience by having a clear navigation system.
+      * As a website creator, I want my website load times to be low. I do not want users leaving the site before it has time to load.
+      * As a website creator, I want my website to be as accesible as possible in order to be inclusive to all potenial users.
 
 
 
@@ -63,14 +65,14 @@ This project a front end marketing website for North East function band Union Sq
 
    * ### Typography
      *  Montserrat is the main font used for all headers with a sans serif fallback.
-     *  Lora is the font used for the main text through out the website this also as a sans serif fallback. I used this to compliment the montserrat font.
+     *  Lora is the font used for the main text throughout the website this also as a sans serif fallback. I used this to compliment the montserrat font.
 
    * ### Imagery 
 
       ### Home Page
        - 1 x Hero image 
-       - 1 x image in about section 
-       - 3 x images in Showcase feature 
+       - 1 x image in About Section 
+       - 3 x images in Showcase Feature 
       
       ### Video and Music Page 
        - 4 x images 
@@ -81,7 +83,7 @@ This project a front end marketing website for North East function band Union Sq
    * ## Videos
 
       ### Home page 
-        - 1 showreel video created by developer
+        - 1 Showreel video created by developer
 
       ### Video and Music Page
         - 4 x videos 
@@ -90,11 +92,11 @@ This project a front end marketing website for North East function band Union Sq
         - 1 x background image 
    
 3. ## Wireframes <a id="wireframes"></a>
-    * Home pages wireframes - [View](wireframes/indexwireframe.png)
+    * Home Page wireframes - [View](wireframes/indexwireframe.png)
     * Video/Music wireframes - [View](wireframes/musicvideo.png)
     * Setlist wireframes - [View](wireframes/songlist.png)
     * Events wireframes - [View](wireframes/events.png)
-    * Contact us wireframes - [View](wireframes/contact.png)
+    * Contact Us wireframes - [View](wireframes/contact.png)
 
 ## Features <a id="features"></a>
 -----
@@ -102,35 +104,35 @@ This project a front end marketing website for North East function band Union Sq
 * Responsive on all device sizes
 
 ### Navigation Bar
- * All pages have a colapable navigation bar this makes it fully responsive on all devices 
+ * All pages have a collapsible navigation bar, this makes it fully responsive on all devices 
 
 ### Footer 
- * All pages hsve a footer thst contains links to social media and contact details for the band. 
+ * All pages have a footer that contains links to social media and contact details for the band. 
 
 ### Home Page
- * Call out with call to action button
- * Responsive About feature
- * Responsive Showcase feature with:
+ * Callout section with call to action button
+ * Responsive About Feature
+ * Responsive Showcase Feature with:
     - setlist
     - audio 
     - video 
     - images. 
     All have links for users to discover more content
  * A feature about the bands services with call to action buttons
- * A feature for users easily make enquirys and get in touch with the band 
+ * A feature for users to easily make enquiries and get in touch with the band 
 
 ### Music/Video Page
  * Music Player 
  * Video Player 
 
 ### Setlist Page
- * A list of all songs the band currently plays 
+ * A list of all songs the band currently play 
 
 ### Events Page
-*  list of all future events with links to directions and tickets 
+*  list of all future events with links to venue directions and tickets 
 
 ### Contact us Page Page
-* A form for users to make enquirys with the band
+* A form for users to make enquiries with the band
 
 ### Future Features Page
 * Testimonial page 
@@ -149,9 +151,9 @@ This project a front end marketing website for North East function band Union Sq
 1. Bootstrap 5:
    * Used for responsiveness and styling of the website.
 2. Slick:
-   * Used to create responsive carosell elements on the home and video/music pages of the website.
+   * Used to create responsive carousel elements on the video/music page of the website.
 3. Font Awesome:
-   * Used to import icons used on every page of the website.
+   * Used to import icons that used across every page of the website.
 4. Google Fonts: 
    * Used to import Montserrat and Lora fonts.
 5. Photoshop: 
@@ -174,19 +176,19 @@ This project a front end marketing website for North East function band Union Sq
 
 I Deployed my project to Github pages using the following steps:
 
-1. I loggrd in to Github and found my [repositorys](https://github.com/DeanDodds/milestoneprojectone)
+1. I logged in to Github and located [repositorys](https://github.com/DeanDodds/milestoneprojectone)
 2. I then clicked on settings, this was located just about the green GitPod button.
-3. I scolled down through the setting menu and clicked on the pages section
-4. from there, I  went to the source section and under the dropdown menu labeled none i selcted the new-main 
-5. i clicked save 
-6. after a feew minutes the site was live and the link to the published web site is generated [link](https://deandodds.github.io/milestoneprojectone/)
+3. I scrolled down through the settings menu and clicked on the pages section
+4. from there, I  went to the source section and under the dropdown menu labeled none I selcted the new-main 
+5. I clicked save 
+6. after a few minutes the site was live and the link to the published website was generated [link](https://deandodds.github.io/milestoneprojectone/)
 
 ### Making a local clone <A id="clone"></a>
 
 You can clone a Github repository to your local computer by following these steps:
 
 1. On GitHub.com, navigate the repository page
-2. Above the list of files click on the Code dropdown menu
+2. above the list of files, click on the Code dropdown menu
 3. select the download zip file 
 4. once the files have downloaded you can extract them form the zip file and run them on your local environment 
 
@@ -198,13 +200,13 @@ Forking a Github repositary allows you to make a copy that you can work on witho
 
 1. On GitHub.com, navigate the repository page of the repository you would like to fork
 2. on the top right hand side of the page locate click fork button 
-3. the copy of this resository should now be in your own repositorys
+3. the copy of this resository should now be in your own repositories
 
 ## Credits <a id="credits"></a>
 ------
 
 ### Code <a id="code"></a>
-   - Code Institute love video love running footer socail links and contact form styling 
+   - From Code Institute - love running website video - footer social links and contact form styling 
    - copywrite postioning from [Stackoverflow](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div)
    - Video player button onclick code from [Stackoverflow](https://stackoverflow.com/questions/46817842/using-the-same-div-to-show-different-videos-on-click)
    - Slick slider button fix [Stackoverflow](https://stackoverflow.com/questions/46817842/using-the-same-div-to-show-different-videos-on-click))
@@ -213,7 +215,7 @@ Forking a Github repositary allows you to make a copy that you can work on witho
     
 
 ### Content <a id="content"></a>
-   - All content written by Developoer
+   - All content written by Developer
 
 ### Media <a id="media"></a>
 
@@ -223,14 +225,14 @@ Forking a Github repositary allows you to make a copy that you can work on witho
    - Photo by Josh Sorenson from Pexels - https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
    - Photo by picjumbo.com from Pexels - https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
    - Photo by freestock.org from Pexels - https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
-   - Photo by Vishnu R Nair on Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
+   - Photo by Vishnu R Nair from Pexels - https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 
 
 ### Vidoes
    - Video by Cottonbro from Pexels - https://www.pexels.com/video/a-woman-dancing-expressively-with-a-glass-of-wine-on-hand-3188954/ 
 
 ## Acknowledgements <a id="acknowledgements"></a>
-   - Chris Quinn- My Mentor for continuous helpful feedback and advice.
+   - Chris Quinn - My Mentor for continuous helpful feedback and advice.
    - The Code Institute Slack Community 
 
 
-[Testing link to testing readme](TESTING.md)
+[Testing link](TESTING.md)

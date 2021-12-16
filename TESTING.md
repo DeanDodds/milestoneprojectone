@@ -11,7 +11,7 @@
 
 ## Validation <a id="validation"></a>
 
-I used the W3C Markup and CSS Validator Service to ensure there was no syntax errors all my pages.
+I used the W3C Markup and CSS Validator Service to ensure there was no syntax errors throughout my webpage.
 
 W3C Mark up Validator
  * Home Page - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeandodds.github.io%2Fmilestoneprojectone%2Findex.html)
@@ -27,41 +27,41 @@ W3C CSS Validator
 
    * ### First Time Visitor Goals
       1. As a first time visitor, I want to be able to understand the main purpose of the website.
-       - When entering the site users can clearly see the navigation bar and the purpose of the site is very clear
-       - The users have clear options. Users can use the call to action button to make a booking or scroll untill they see the content that intrests them
+       - When entering the site users can clearly see the navigation bar and the purpose of the site is very clear.
+       - The users have clear options. Users can use the call to action button to make a booking or scroll untill they see the content that intrests them.
 
-      2. As a first time vistor, i want to be able to navigate through out the site and beable to watch, listern and see the bands content easily.
-       - Navigtion to content is clear. The links to this content or in the navigation bar and links from the home page
+      2. As a first time vistor, I want to be able to navigate throughout the site and beb able to watch, listen and see the bands content easily.
+       - Navigtion to content is clear. The links to this content are in the navigation bar and links from the home page.
    
-      3.  As a first time vistor, i want to be able to beable to easily connect with the band on social media.
-       -  Links to this content is in the footer on every page  
+      3.  As a first time vistor, I want to be able to easily connect with the band on social media.
+       -  Links to this content is in the footer of every page.  
 
  * ### Returning Visitor Goals
-      1. As a returning time visitor, i want to be able to beable to book make an enquiry.
-       - Users have lots of diffent options to get in touch with the band throughout the home page
+      1. As a returning visitor, I want to be able to book and make an enquiry.
+       - Users have lots of diffent options to get in touch with the band throughout the home page.
 
-      2. As a returning time visitor, i want to be able to beable to find out where i can see the band in the future
-       - There are clear links in the navigation to a upto date list of events featuring the band 
+      2. As a returning visitor, I want to be able to find out where I can see the band in the future.
+       - There are clear links in the navigation to an upto date list of events featuring the band. 
         
-      3. As a returning time visitor, i want to be able to beable to see the band contact information.
+      3. As a returning visitor, I want to be able to see the band contact information.
       - the bands contact details are displayed in the footer of every page. 
  
  * ### * ### Website Creator goals
-      1. As a website Creator, I want to create a website that works on all platforms.
+      1. As a website creator, I want to create a website that works on all platforms.
       - Website runs on all devices tested.
 
-      2. As a website Creator, I want to create a good user experience by having a clear navigation system.
-      - Navigation system worked well during user testing 
+      2. As a website creator, I want to create a good user experience by having a clear navigation system.
+      - Navigation system worked well during user testing. 
 
-      3. As a website Creator, I want to my website load times to be low. I do not want users leaving the site before it has time to load.
-      - Video elements running a little showly at present. i am consider hosting videos on and external webiste such as youtube to speed up loading.
+      3. As a website creator, I want my website load times to be low. I do not want users leaving the site before it has time to load.
+      - Video elements running a little showly at present. I am considering hosting videos on and external webiste such as Youtube to speed up loading times.
 
-      4. As a website Creator, I want to my website to be as accesible as possible so all users are able to have use to it.
+      4. As a website creator, I want my website to be as accesible as possible.
       - Webpages all pass lighthouse accesibility testing.
 
 ## lighthouse testing. <a id="lighthouse"></a>
 
-All my pages have went through google dev tools lighthouse analylis and scored on
+All my pages have went through google dev tools lighthouse analysis which are scored on:
       * Performance 
       * Accesibility
       * Best Practices
@@ -89,7 +89,7 @@ All my pages have went through google dev tools lighthouse analylis and scored o
 
 ## Further Testing <a id="ftesting"></a>
 
-I have tested my project on a varity of browsers such as:
+I have tested my project on a variety of browsers such as:
   ### Google Chrome 
 
   ![Screen shot of Google Chrome](wireframes/design/chrome-screenshot.png)
@@ -104,24 +104,23 @@ I have tested my project on a varity of browsers such as:
   ![Screen shot of Safari](wireframes/design/safari-screenshot.png)
   
   
-I have also tested it on arrange of devices such as
+I have also tested it on a range of devices such as:
   * Iphone 6
   * Iphone S
-  * laptop 
+  * Laptop 
   * Desktop
   * Huawei T10 tablet
 
-I also used the chrome developer tools to test responsiveness on different device simulations.
-
-I asked my friends and family to visit the website and report any problems the encounter 
+I have used the Chrome developer tools to test responsiveness on different device simulations and asked my friends and family to visit the website and report any problems they encounter. 
 
 I have done a large amount of testing on all pages to ensure all:
   * links 
   * videos 
   * buttons  
-are working correctly and fixed and broken links 
+are working correctly and fixed any broken links 
 
 ## Known Bugs <a id="bugs"></a>
-* On older devices home page callout section spills over its container and the background image is too zoomed in  
-* On older devices home page showcase card links spill over the card container. - fixed by reducing font size on small screens 
-* on older devices contact page enquiry form overflows the container - fixed by adding hieght to form contianer 
+* On older devices home page callout section spills over its container and the background image is too zoomed in. 
+* On older devices home page showcase card links spill over the card container - fixed by reducing font size on small screens.
+* On older devices contact page enquiry form overflows the container - fixed by adding height to form container.
+* Slick slider jumps between last slide and first. This is a known error with the slick slider library and is awaiting bug fixes.
