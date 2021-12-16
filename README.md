@@ -1,7 +1,7 @@
 # Union Square Sessions Website
 
 
-[View live website here....](#)
+[View live website here....](https://deandodds.github.io/milestoneprojectone/)
 
 ![Mock up of website](wireframes/design/mockup.png)
 

@@ -1,10 +1,6 @@
 /* General Typography */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-body {
-  font-size: 62.5%;
-}
-
 h1,
 h2,
 h3,
@@ -79,14 +75,14 @@ section {
 
 @media screen and (max-width: 500px) {
   .callout {
-    background: url(../images/smallheroimage.webp) no repeat center center fixed;
+    height: 80vh;
   }
 }
 
 /* About */
 .about {
   text-align: center;
-  width: 95%;
+  width: 100%;
   margin: 5px auto;
 }
 
@@ -108,7 +104,7 @@ section {
     display: grid;
     grid-template-rows: 20% 80%;
     grid-template-columns: 50% 50%;
-    margin: auto 20px;
+    margin: 0 auto;
     max-width: 1800px;
   }
 
@@ -209,8 +205,9 @@ h3 a:hover {
   width: 100%;
 }
 
-.showcase-card-footer h2 {
+.showcase-card-footer h3 {
   padding: 20px;
+  padding-bottom: 40px;
 }
 
 .gallery {
@@ -224,10 +221,6 @@ h3 a:hover {
   width: 400px;
 }
 
-.showcase-card h3 {
-  padding: 20px;
-}
-
 #songs table {
   font-size: 1rem;
 }
@@ -236,6 +229,13 @@ iframe {
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 436px) {
+  .showcase-card-footer h3 a {
+    font-size: 1.4rem;
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .showcase-grid-container {
@@ -277,7 +277,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1125px) {
   .showcase-grid-container {
     display: grid;
     grid-template-rows: 400px 400px;
@@ -486,7 +486,6 @@ footer h3 {
 
   .copywrite {
     display: block;
-    /* code from https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div */
     position: absolute;
     bottom: 0;
     left: 50%;
